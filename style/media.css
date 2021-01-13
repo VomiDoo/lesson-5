@@ -1,0 +1,221 @@
+@media (max-width: 768px){
+
+    .wrap{
+        width: 100%;
+    }
+
+    .nav{
+        order: -1;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    .menu-btn {
+        display: block;
+    }
+
+    .about__inform{
+        width: 100%;
+    }
+
+    .we-image{
+        width: 85vw;
+        margin: 10px 0;
+    }
+
+    .services__text{
+        width: 100%;
+        margin-top: 4vh;
+    }
+
+    .button{
+        margin-top: 4vh;
+    }
+
+    .card{
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    .newsletter{
+        flex-direction: column;
+    }
+
+    .email{
+        width: 45vw;
+    }
+
+    .button--newsletter{
+        width: 45vw;
+        margin: 0;
+    }
+    
+    .newsletter__content{
+        flex-direction: column;
+        margin-top: 1vh;
+    }
+
+    .company{
+        width: 80vw;
+    }
+
+    .company__text{
+        width: 100%;
+    }
+
+    .links{
+        width: 80vw;
+    }
+
+    .links__list{
+        justify-content: space-between;
+        width: 100%;
+        margin: 3vh 0 2vh;
+        padding-right: 5vw;
+    }
+
+    .footer__head{
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .footer__contact__text{
+        width: 70vw;
+    }
+
+    .contact__social-media{
+        display: flex;
+        
+    }
+
+
+}
+
+
+@media (height: 1024px){
+
+
+    .about__image{
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    .we-image{
+        width: 25vw;
+    }
+
+    .card{
+        width: 100%;
+    }
+
+    .email{
+        width: 45vw;
+    }
+
+    .button--newsletter{
+        width: 45vw;
+    }
+    
+    .newsletter__content{
+        flex-direction: column;
+        margin-top: 10px;
+    }
+
+    .company{
+        width: 100%;
+    }
+
+    .links{
+        width: 100%;
+    }
+    .footer__contact{
+        width: 100%;
+    }
+
+    
+    
+}
+
+
+@media (width: 1024px){
+
+    .wrap{
+        width: 100%;
+    }
+
+    .about__inform{
+        width: 100%;
+        margin: 3vh 0;
+    }
+
+    .about__image{
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    .we-image{
+        width: 26vw;
+    }
+
+    .button{
+        margin: 10px 0 0;
+    }
+
+    .services__text{
+        font-size: 14px;
+    }
+
+    .card{
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 1vh;
+    }
+
+    .newsletter{
+        flex-direction: column;
+    }
+
+    .email{
+        width: 45vw;
+    }
+
+    .button--newsletter{
+        width: 45vw;
+        margin: 0;
+    }
+    
+    .newsletter__content{
+        flex-direction: column;
+        margin-top: 10px;
+    }
+
+    .company__text{
+        width: 100%;
+    }
+
+    .links{
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    .links__list{
+        margin: 3vh 0 2vh;
+    }
+
+    .footer__head{
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .footer__contact{
+        width: 100%;
+        justify-self: center;
+        justify-content: space-between;
+    }
+
+    .footer__contact__text{
+        width: 70vw;
+    }
+}
